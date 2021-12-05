@@ -19,6 +19,28 @@ platforms.
 
 ![final_2](https://user-images.githubusercontent.com/76089814/144738313-fe94d817-e30e-41e3-94ca-c9a198a9242f.png)
 
+## Available Formats
+Users can request .jpg instead of .png for smaller files :
+
+#### Format	Example
+1. PNG : <a href = "https://api.memegen.link/images/ds/small_file/high_quality.png">PNG sample</a>
+2. JPEG : <a href= "https://api.memegen.link/images/ds/high_quality/small_file.jpg">JPEG sample</a>
+
+## Custom Dimensions
+Images can be scaled to a specific width or height using the width=<int> and height=<int> query parameters. If both are provided (width=<int>&height=<int>), the image will be padded to the exact dimensions.
+
+## Templates
+The list of predefined meme templates is available here: https://api.memegen.link/templates/
+
+## Custom Backgrounds
+You can also use your own image URL as the background.
+#### Example - url : <a href= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnsmOMR58hEuwTE0Sn52ovGgiCMwS2BKlZg&usqp=CAU">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnsmOMR58hEuwTE0Sn52ovGgiCMwS2BKlZg&usqp=CAU</a>
+   will result in the below image <br/>
+  <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnsmOMR58hEuwTE0Sn52ovGgiCMwS2BKlZg&usqp=CAU">
+  
+You can also use your own image from your computer.
+#### Example - 
+  ![mybackground](https://user-images.githubusercontent.com/76089814/144738952-f127ede4-1acc-4c9c-83bd-2c4453205f11.jpg)
 
 
 ## Technologies used 
@@ -29,4 +51,7 @@ platforms.
 5. Fabricjs
 6. Node.js
 7. Express
+
+## Liscence - Apache License 2.0
+  link - <a href = "https://github.com/atharva0300/Meme-Generator/blob/main/LICENSE">license</a>
 
