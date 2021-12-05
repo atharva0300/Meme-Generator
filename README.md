@@ -15,6 +15,12 @@ You can also create a database of your own to store meme images and fetch images
 Also, you can enhance the functionality of the meme generator by allowing users to create and log in to their accounts, save memes, and share them on different social media 
 platforms.
 
+## Example 
+
+![final_2](https://user-images.githubusercontent.com/76089814/144738313-fe94d817-e30e-41e3-94ca-c9a198a9242f.png)
+
+
+
 ## Technologies used 
 1. Html 
 2. CSS 
