@@ -12,4 +12,15 @@ You need to add two different input fields in your meme generator, i.e.:
 2nd one for the text at the bottom of the image.
 You can also create a database of your own to store meme images and fetch images from the database.
 
-Also, you can enhance the functionality of the meme generator by allowing users to create and log in to their accounts, save memes, and share them on different social media platforms.
+Also, you can enhance the functionality of the meme generator by allowing users to create and log in to their accounts, save memes, and share them on different social media 
+platforms.
+
+## Technologies used 
+1. Html 
+2. CSS 
+3. Javascript
+4. React
+5. Fabricjs
+6. Node.js
+7. Express
+
