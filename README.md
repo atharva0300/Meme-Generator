@@ -52,6 +52,8 @@ You can also use your own image from your computer.
 6. Node.js
 7. Express
 
+## Communication Channel
+   ##### Join Discord - <a href = "https://discord.gg/8qAemrkF">Meme-Generator (KWoC 2021)</a>
 ## Liscence - Apache License 2.0
   link - <a href = "https://github.com/atharva0300/Meme-Generator/blob/main/LICENSE">license</a>
 
