@@ -1,6 +1,3 @@
-# Meme-Generator
-Meme-Generator for Kharagpur Winter of Code ( KWoC  2021)
-
 ## Project Overview 
 Do you like memes? Most people do, so if yes, the idea of developing a meme generator would surely get you going. Being new to React, you can build a simple meme generator that instantly allows users to create memes.
 
