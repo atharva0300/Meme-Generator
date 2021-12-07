@@ -1,10 +1,11 @@
 import React from 'react'
+import Applogo from './Applogo.png'
 
 export default function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a href="/" class="navbar-brand">Meme Generator</a>
+                <a href="/" class="navbar-brand"><img src={Applogo} alt = "logo" width = "40"/>&nbsp; Meme Generator</a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
