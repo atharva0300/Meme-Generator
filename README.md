@@ -121,6 +121,13 @@ You can also use your own image from your computer.
 6. Node.js
 7. Express
 
+
+## Things Completed
+
+- [ ] Navbar for UI
+
+   
+   
 ## Communication Channel
    ##### Join Discord - <a href = "https://discord.gg/8qAemrkF">Meme-Generator (KWoC 2021)</a>
 ## Liscence - Apache License 2.0
