@@ -14,7 +14,7 @@ Check all the boxes [X] that applies
 - [ ] I have tested the code locally before submission
 - [ ] My submission doesn't break any existing component or feature
 - [ ] I have updated the documentation accordingly *{if needed}*
-- [ ] I have added my name and username to [Contributors.md](https://github.com/unnikrishnan2002/Meme-Generator/blob/main/Contributors.md) *{ provided my name and username was not added before}*
+- [ ] I have added my name and username to [Contributors.md](https://github.com/atharva0300/Meme-Generator/blob/main/Contributors.md) *{ provided my name and username was not added before}*
 
 # Screenshots
 -- Add the screenshots/gifs supporting your changes --
