@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+a {
+  text-decoration: none;
+  color: crimson;
+}
+table {
+  table-layout: auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead tr {
+  background-color: rgba(0, 4, 255, 0.616);
+  color: #ffffff;
+  text-align: center;
+}
+th,
+td {
+  padding: 12px 15px;
+  width: auto;
+}
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+  border-bottom: 2px solid rgba(0, 4, 255, 0.616);
+}
+tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+tbody tr > td {
+  color: indigo;
+}
