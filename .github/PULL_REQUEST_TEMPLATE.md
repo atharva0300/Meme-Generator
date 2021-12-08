@@ -7,6 +7,11 @@ Fixes #issue_number
 # Additional Information
 -- If you have any additional information to add , do it here --
 
+# Files Changed
+- file 1
+- file 2
+- file 3
+
 # Checklist
 Check all the boxes [X] that applies
 - [ ] I have asked/communicated about the issue before opening a PR
