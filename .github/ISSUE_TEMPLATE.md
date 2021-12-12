@@ -1,11 +1,11 @@
 ## Type of the Issue
-- [ ] BUG
+
 - [ ] FEATURE REQUEST
-- [ ] DOCUMENTATION
-- [ ] OTHERS
+
+
 
 ## Description of the Issue
--- Give a brief about the issue --
+Added New version of React-Router for navigating from home page to about page and contact page
 
 ## Reproducing the issue - [BUG]
 -- Mention the steps to reproduce the issue --
@@ -13,7 +13,7 @@
 -- *If the issue is of some other types other than the mentioned above, then just write `not required`* --
 
 ## Outcome/Advantages of the implementing/fixing this feature/bug - [BUG/FEATURE]
--- Describe the advantages/outcomes of including the feature/fixing this bug --
+--react router is one of the essential library for routing in react and it keeps changing the url and syncs with UI.
 
 -- *If the issue is of some other types other than the mentioned above, then just write `not required`* --
 
@@ -21,4 +21,4 @@
 -- Add screenshots which supports your proposal if required otherwise write `not required`--
 
 ## Additional Info
--- If you have to mention any additional information , do it here --
+-- Just added two files ContactUs.js and About.js with blank react template to enable the functionality --
