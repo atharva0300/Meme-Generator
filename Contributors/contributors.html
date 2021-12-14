@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contributorStyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!---------------------- Table data will be displayed here  -------------------------->
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Github-Link</th>
+        </tr>
+      </thead>
+      <tbody id="data"></tbody>
+    </table>
+
+    <!---------------------------- Fetch api ---------------------------------->
+    <script>
+      let tbody = document.getElementById("data");
+
+      fetch("contributors.json")
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          console.log(data);
+          data.forEach((ele) => {
+            tbody.innerHTML +=
+              "<tr><td>" +
+              ele.Name +
+              "</td><td><a href =" +
+              ele.GithubURL +
+              " target='_blank'>" +
+              ele.GithubURL +
+              "</a></td></tr>";
+          });
+        });
+    </script>
+  </body>
+</html>
