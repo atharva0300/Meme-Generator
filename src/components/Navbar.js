@@ -1,5 +1,6 @@
 import React from 'react'
-import Applogo from './Applogo.png'
+import Applogo from './Applogo.png';
+import {Link} from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -11,10 +12,11 @@ export default function Navbar() {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="/" class="nav-item nav-link active">Home</a>
-                        <a href="/" class="nav-item nav-link active">About</a>
-                        <a href="/" class="nav-item nav-link active">Contact Us</a>
-                        <a href="/" class="nav-item nav-link active">Workspace</a>
+                    <Link class="nav-item nav-link active" to="/"> Home</Link>
+                    <Link class="nav-item nav-link active" to="/about"> About Us</Link>
+                    <Link class="nav-item nav-link active" to="/contact"> Contact Us</Link>
+
+                    <a href="/" class="nav-item nav-link active">Workspace</a>
                     </div>
                 </div>
             </div>
