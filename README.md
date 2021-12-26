@@ -1,8 +1,31 @@
-# Getting Started with Create React App
+# Meme Generator
+
+Do you like memes? Most people do, so if yes, the idea of developing a meme generator would surely get you going. Being new to React, you can build a simple meme generator that instantly allows users to create memes.
+
+The idea here is to use an API to fetch random meme images and then allow users to place custom text at the top and bottom of the image.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How it works
+You need to add two different input fields in your meme generator, i.e.:
+
+1st one for the text at the top and the 2nd one for the text at the bottom of the image. You can also create a database of your own to store meme images and fetch images from the database.
+
+Also, you can enhance the functionality of the meme generator by allowing users to create and log in to their accounts, save memes, and share them on different social media platforms.
+
+## Example 
+
+![final_2](https://user-images.githubusercontent.com/76089814/144738313-fe94d817-e30e-41e3-94ca-c9a198a9242f.png)
+## Technologies used 
+1. Html 
+2. CSS 
+3. Javascript
+4. React
+5. Fabricjs
+6. Node.js
+7. Express
+
+## ✨Contributing
 
 In the project directory, you can run:
 
@@ -48,48 +71,18 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#### 1. [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 2. [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Analyzing the Bundle Size
+#### 3. [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 4. [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Making a Progressive Web App
+#### 5. [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### 6. [`npm run build` fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## Project Overview 
-Do you like memes? Most people do, so if yes, the idea of developing a meme generator would surely get you going. Being new to React, you can build a simple meme generator that instantly allows users to create memes.
-
-The idea here is to use an API to fetch random meme images and then allow users to place custom text at the top and bottom of the image.
-
-You need to add two different input fields in your meme generator, i.e.:
-
-1st one for the text at the top and the
-2nd one for the text at the bottom of the image.
-You can also create a database of your own to store meme images and fetch images from the database.
-
-Also, you can enhance the functionality of the meme generator by allowing users to create and log in to their accounts, save memes, and share them on different social media 
-platforms.
-
-## Example 
-
-![final_2](https://user-images.githubusercontent.com/76089814/144738313-fe94d817-e30e-41e3-94ca-c9a198a9242f.png)
 
 ## Available Formats
 Users can request .jpg instead of .png for smaller files :
@@ -105,31 +98,24 @@ Images can be scaled to a specific width or height using the width=<int> and hei
 The list of predefined meme templates is available here: https://api.memegen.link/templates/
 
 ## Custom Backgrounds
-You can also use your own image URL as the background.
-#### Example - url : <a href= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnsmOMR58hEuwTE0Sn52ovGgiCMwS2BKlZg&usqp=CAU">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnsmOMR58hEuwTE0Sn52ovGgiCMwS2BKlZg&usqp=CAU</a>
-   will result in the below image <br/>
-  <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnsmOMR58hEuwTE0Sn52ovGgiCMwS2BKlZg&usqp=CAU">
-  
-You can also use your own image from your computer.
-#### Example - 
-  ![mybackground](https://user-images.githubusercontent.com/76089814/144738952-f127ede4-1acc-4c9c-83bd-2c4453205f11.jpg)
-
-
-## Technologies used 
-1. Html 
-2. CSS 
-3. Javascript
-4. React
-5. Fabricjs
-6. Node.js
-7. Express
-
+1. Using URL 
+2. upload from your computer.
 
 ## Things Completed
 
 - [ ] Navbar for UI
 
-   
+## Authors
+
+- [Atharva Pingale](https://github.com/atharva0300)
+- [Sachin Mittal](https://github.com/SachinMittal1766)
+ 
+## Contributors
+<br>
+<a href="https://github.com/atharva0300/Meme-Generator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=atharva0300/Meme-Generator" />
+</a>
+<br>
    
 ## Communication Channel
    ##### Join Discord - <a href = "https://discord.gg/8qAemrkF">Meme-Generator (KWoC 2021)</a>
