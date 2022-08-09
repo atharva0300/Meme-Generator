@@ -1,0 +1,39 @@
+@import '/node_modules/tailwindcss/base.css';
+@import '/node_modules/tailwindcss/components.css';
+@import '/node_modules/tailwindcss/utilities.css';
+.keyboardCat {
+  background-image: url('https://media4.giphy.com/media/Hcw7rjsIsHcmk/giphy.gif');
+}
+
+.keyboardCat > h1 {
+  align-self: center;
+  justify-self: center;
+  margin: 0
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.image {
+  height: 75%;
+  max-height: 50vh;
+}
+
+/* tailwind */
+@layer base {
+  input {
+    @apply bg-gray-200 rounded m-1 p-1
+  } body {
+    @apply bg-blue-200
+  } nav {
+    @apply bg-blue-300
+  }
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
